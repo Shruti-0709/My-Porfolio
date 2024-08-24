@@ -1,0 +1,47 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-me-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .about-me-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-me-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me-text {
+    flex: 2;
+    margin-left: 40px;
+    padding: 20px;
+  }
+  
+  .about-me-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
